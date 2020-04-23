@@ -1,0 +1,38 @@
+<resources>
+    <!-- Add Note -->
+    <string name="app_name">MyAssignment</string>
+    <string name="addButton">Add Word</string>
+
+    <!-- Add Language -->
+    <string name="addLangButton">Add Language</string>
+
+    <!-- Main Menu -->
+    <string name="buttonNotes">Notes</string>
+    <string name="buttonRevise">Revise</string>
+    <string name="buttonChangeLanguage">Change Language</string>
+    <string name="buttonDeleteNote">Delete Language Settings</string>
+
+    <!-- Revise -->
+    <string name="buttonFlash">Flash Cards</string>
+    <string name="title_activity_revise">Revise</string>
+    <string name="title_activity_add_word">ActivityAddWord</string>
+    <string name="title_activity_notes">ActivityNotes</string>
+
+    <!-- About -->
+    <string name="verNum">Version 1.0.0</string>
+
+    <string name="hint_word">Word...</string>
+    <string name="button_save">Save</string>
+    <string name="empty_not_saved">Word not saved because it is empty.</string>
+    <string name="asklang_preferences_primary_key">com.example.alexs.myassignment.PRIMARY_KEY</string>
+    <string name="asklang_preferences_secondary_key">com.example.alexs.myassignment.TRANSLATED_KEY</string>
+
+    <style name="button_style" parent="android:style/Widget.Material.Button">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@color/colorPrimaryDark</item>
+        <item name="android:textAppearance">@android:style/TextAppearance.Large</item>
+        <item name="android:layout_marginTop">16dp</item>
+        <item name="android:textColor">@color/colorTextPrimary</item>
+    </style>
+</resources>
